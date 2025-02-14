@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "./Button/Button";
 import Counter from "./Counter/Counter";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 			<p>Nu gör vi interaktiva komponenter!</p>
 			<Counter />
 			<Counter />
+			<Button />
 		</>
 	);
 }
