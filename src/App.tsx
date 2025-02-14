@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "./Button/Button";
 import Counter from "./Counter/Counter";
+import NewCounter from "./NewCounter/NewCounter";
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<Counter />
 			<Counter />
 			<Button />
+			<NewCounter />
 		</>
 	);
 }
